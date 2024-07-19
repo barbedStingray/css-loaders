@@ -1,0 +1,42 @@
+.mapLoader {
+    border: 2px solid red;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500&display=swap"); */
+
+
+
+
+
+button {
+    border: none;
+    background: #242539;
+    color: #4dc498;
+    /* margin: 1rem; */
+    font-size: 1.1rem;
+    /* transition-property: opacity, visibility, transform; */
+    transition-duration: 0.25s;
+    /* transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); */
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+}
+
+svg {
+    width: 100%;
+    height: auto;
+  }
+  /* .start, .in-between, .end {
+    transition: stroke-dashoffset 0.25s ease-in-out;
+  } */
