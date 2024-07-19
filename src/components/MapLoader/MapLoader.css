@@ -9,13 +9,6 @@
 }
 
 
-
-/* @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:500&display=swap"); */
-
-
-
-
-
 button {
     border: none;
     background: #242539;
@@ -33,10 +26,10 @@ button {
     transform: translateY(-20px);
 }
 
-svg {
+/* svg {
     width: 100%;
     height: auto;
-  }
+  } */
   /* .start, .in-between, .end {
     transition: stroke-dashoffset 0.25s ease-in-out;
   } */

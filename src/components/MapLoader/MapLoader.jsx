@@ -48,19 +48,22 @@ function MapLoader() {
   }, []);
 
   return (
-    <div className="App">
       <div className='mapLoader'>
         <svg viewBox="0 0 100 100">
           <rect width="100" height="100" rx="2" fill="#242539" />
           <g fill="none" stroke="#4DC498" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            
+            {/* This is the Dotted Line */}
             <g transform="translate(20 35)">
               <path d="M 0 0 v 25 h 15 l 10 -15 h 10 v 20 h 25" strokeDasharray="3 6" strokeDashoffset="2" />
               <path className="in-between" stroke="#242539" strokeWidth="2.5" d="M 60 30 h -25 v -20 h -10 l -10 15 h -15 v -25" />
             </g>
+            {/* This is the X */}
             <g transform="translate(20 35)">
               <path className="start" d="M -3 -3 l 6 6" />
               <path className="start" d="M 3 -3 l -6 6" />
             </g>
+            {/* This is the End Point */}
             <g transform="translate(80 65)">
               <g transform="translate(40 20)">
                 <g className="end">
@@ -76,7 +79,6 @@ function MapLoader() {
         </svg>
         <button ref={buttonRef} className="hidden">Restart</button>
       </div>
-    </div>
   );
 }
 
